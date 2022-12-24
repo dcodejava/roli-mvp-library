@@ -16,8 +16,8 @@
   ],
   "require":           {
     "php": ">=8",
-    "wp-bootstrap/wp-bootstrap-navwalker": "-dev",
-    "reezh/nwpb5-navwalker": "-dev",
+    "wp-bootstrap/wp-bootstrap-navwalker": "4.3.0",
+    "reezh/nwpb5-navwalker": "4.3.0",
     "whichbrowser/parser": "2.1.7"
   },
   "repositories":      [
