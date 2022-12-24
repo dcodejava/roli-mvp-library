@@ -1,1 +1,58 @@
-
+{
+  "name":              "dcodejava/roli-mvp-library",
+  "homepage":          "https://github.com/dcodejava/roli-mvp-library",
+  "description":       "MVP Online Book Library system",
+  "type":              "wordpress-plugin",
+  "keywords":          [
+    "WordPress",
+    "plugins",
+    "themes",
+    "book",
+    "skeleton",
+    "Roli",
+    "library",
+    "management",
+    "system"
+  ],
+  "require":           {
+    "php": ">=8",
+    "wp-bootstrap/wp-bootstrap-navwalker": "-dev",
+    "reezh/nwpb5-navwalker": "-dev",
+    "whichbrowser/parser": "2.1.7"
+  },
+  "repositories":      [
+    {
+      "type": "vcs",
+      "url":  "https://github.com/dcodejava/roli-mvp-library"
+    }
+  ],
+  "minimum-stability": "stable",
+  "license":           "proprietary",
+  "authors":           [
+    {
+      "name":     "Dickson Okorodudu",
+      "email":    "dcodejava@gmail.com",
+      "homepage": "https://dcodejava.com",
+      "role":     "Developer"
+    },
+    {
+      "name":     "Daniel Dickson",
+      "email":    "dcoderoli@gmail.com",
+      "homepage": "https://dcodejava.com",
+      "role":     "Developer"
+    }
+  ],
+  "support":           {
+    "email": "support@dcodejava.com"
+  },
+  "config":            {
+    "platform": {
+      "php": "8.1"
+    }
+  },
+  "autoload":          {
+    "psr-4": {
+      "Roli\\": "src/"
+    }
+  }
+}
